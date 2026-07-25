@@ -1,0 +1,6 @@
+bpy==4.4.0
+torch==2.7.1
+numpy==2.2.6
+Pillow==11.3.0
+tqdm==4.67.1
+diffusers

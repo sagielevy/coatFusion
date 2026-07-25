@@ -1,0 +1,33 @@
+.idea/
+.venv/
+material_transfer/dataset/
+coating_dataset/
+error_job*\.txt
+log_job*\.txt
+\.DS_Store
+material_transfer/train_dataset_config.jsonl
+*.blend1
+
+__pycache__/
+coating_dataset_generator/coating_dataset_100K
+coating_dataset_Benchmark/
+coating_dataset_Training/
+coating_dataset_Userstudy/
+benchmark/coco
+benchmark/ouptut_projected_albedos
+
+benchmark/**/*.png
+benchmark/**/*.jpg
+*.psd
+*.err
+*.out
+/wandb
+.vscode/launch.json
+
+# LFS files excluded from public branch
+coating_dataset_generator/Models/
+coating_dataset_generator/Benchmarks/
+coating_dataset_generator/HDRIs/
+coating_dataset_generator/material_albedos/
+coating_dataset_generator/Patch Masks/
+coating_dataset_generator/coating_dataset_generation.blend
